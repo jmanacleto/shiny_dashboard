@@ -1,0 +1,92 @@
+.fundo-login {
+    /* background: url(https://operdata.com.br/sistema/assets/img/background.jpg) 100% 0 no-repeat; */
+    background: url(../img/background.jpg) 100% 0 no-repeat;
+    width: 100%;
+    height: 100%;
+    min-height: 800px;
+}
+
+.background-none {
+  background: none;
+  background-color: none;
+}
+
+.title-header {
+    color: #E7ECEF;
+    padding-right: 5px;
+}
+
+div#tab_inicio-box_valor_grupo1,
+div#tab_inicio-box_valor_grupo2{
+    width: 100%;
+}
+
+.small-box.bg-purple > .inner > p {
+    font-size: 15px;
+    text-align: left;
+    color: #f4f3ee;
+}
+
+.small-box.bg-purple > .inner > h3 {
+    font-size: 32px;
+    text-align: left;
+    color: #FDFCDC;
+}
+
+.bg-purple {
+    background-image: linear-gradient(
+  140deg
+,  #212f45 0%, #272640 60%, #144552 98%);
+    border-radius: 5px;
+}
+
+.small-box.bg-purple > .icon-large {
+    font-size: 55px;
+    padding-right: 15px;
+    color: #335c67;
+}
+
+text.highcharts-title {
+    fill: #000 !important;
+}
+
+
+.titulo_simulador{
+  style="font-weight: bold;
+  font-size: 24px;
+  border-bottom: 3px solid #600000;
+  width: 70%;
+  color:#042528;
+  margin-bottom: 10px;
+  margin-top: 0px;
+
+}
+
+.alert-success, .bg-green, .callout.callout-success, .label-success, .modal-success .modal-body {
+    background-color: #006466 !important;
+}
+
+span.info-box-text {
+    overflow: visible;
+}
+
+
+span.info-box-text {
+    font-size: 20px;
+}
+
+span.info-box-number {
+    font-size: 30px;
+}
+
+.alert-danger, .alert-error, .bg-red, .callout.callout-danger, .label-danger, .modal-danger .modal-body {
+    background-color: #9e2a2b !important;
+}
+
+.value-box {
+  min-height: 100px !important; /* Ajuste conforme necessário */
+}
+
+.small-box.inner {
+  padding: 0px !important;
+}

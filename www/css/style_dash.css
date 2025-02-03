@@ -1,0 +1,253 @@
+/* Atualizar a cor do menu sanduíche - atualizar 'background-color' */
+.skin-blue .main-header .navbar .sidebar-toggle {
+    color: #fff;
+    background-color: #50bb5b;
+    border-color: #50bb5b;
+    border-radius: 5px;
+    padding: 7px 13px 5px 13px;
+    margin: 9px;
+}
+
+/* Atualizar a cor do menu sanduíche - ao passar o mouse - atualizar 'background' */
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+    background: #1b967b;
+    color: #fff;
+}
+
+/* Atualizar a cor de fundo da barra onde fica a logo - atualizar 'background' */
+.skin-blue .main-header .logo {
+    background: #233646;
+}
+
+/* Atualizar a cor de fundo da barra onde fica a logo - ao passar o mouse em cima - atualizar 'background' */
+.skin-blue .main-header .logo:hover {
+    background: #20303f;
+}
+
+
+
+.sidebar-menu {
+    margin-top: 0px;
+}
+
+.sidebar-menu .treeview-menu {
+    padding-left: 0px;
+    border-left: 5px solid #233646;
+}
+
+/* Atualizar a cor de fundo do link do menu - ao passar o mouse em cima - atualizar 'background' */
+.skin-blue .main-sidebar .sidebar .sidebar-menu a:hover {
+  background: #233646;
+  border-radius: 0;
+  color: #FFF;
+  border: none;
+}
+
+/* Atualizar a cor de fundo do link do menu - que for clicado - atualizar  'background' */
+.skin-blue .sidebar-menu > li:hover > a, .skin-blue .sidebar-menu > li.active > a {
+  background: #233646;
+  border-radius: 0;
+  color: #FFF;
+  border: none;
+}
+
+/* Atualizar a cor da barra do menu - Top - atualizar 'background' */
+.skin-blue .main-header .navbar {
+    background: #283B4F;
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+/***************************************/
+/***************************************/
+
+
+.dataTables_scrollHead {
+    background-color: #087CA7;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+.dt-buttons > button.dt-button {
+    color: #fff;
+    border: #005FAA;
+    background: #005FAA;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.dt-buttons > button.dt-button:hover {
+    color: #053b49;
+    border: #40abf7;
+    background: #40abf7;
+}
+
+li.btn-upload-data.dropdown {
+    width: 100px;
+    padding: 3px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #005FAA;
+    border-radius: 50px;
+    margin: 10px;
+    color: #FFF;
+    margin-left: 30px;
+}
+
+li.btn-upload-data.dropdown > i {
+    color: #FFF;
+}
+
+li.btn-upload-data.dropdown:hover {
+    color: #D0DDE6;
+    box-shadow: 1px 1px #02467a;
+}
+
+h3.control-sidebar-heading {
+    display: none;
+}
+
+text.highcharts-title > tspan {
+    font-size: 15px;
+    color: #5e5e5e !important;
+    font-weight: 600;
+}
+
+text.highcharts-title {
+  fill: #5e5e5e !important;
+}
+
+/********/
+
+ul.nav.nav-tabs.nav-justified.control-sidebar-tabs {
+    display: none;
+}
+
+aside.control-sidebar.control-sidebar-light {
+    width: 320px;
+}
+
+/******/
+
+
+.select-box {
+  margin-top: -28px;
+}
+
+.box-header .box-title {
+    font-size: 14.5px;
+    padding: 8px;
+    font-weight: bold!important;
+    color: #727272 !important;
+    margin-bottom: 6px;
+}
+
+
+/* --------------------------------------- */
+
+.stat-list {
+    list-style: none;
+    padding: 0px 15px;
+    margin: 0;
+}
+
+.no-margins {
+    margin: 0 !important;
+}
+
+.stat-percent {
+    float: right;
+    text-shadow: 0.2px 0.2px #afafaf;
+}
+
+.progress {
+    display: -ms-flexbox;
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+}
+
+.progress-bar-promotor {
+    background-color: #138e84;
+}
+
+.progress-bar-neutro {
+    background-color: #EFC88B;
+}
+
+.progress-bar-detrator {
+    background-color: #F05D5E;
+}
+
+.progress-mini, .progress-mini .progress-bar {
+    height: 5px;
+    margin-bottom: 0;
+}
+
+.progress-small, .progress-mini {
+    margin-top: 5px;
+}
+
+.progress-mini-top, .progress-mini-top .progress-bar-top {
+    height: 5px;
+    margin-bottom: 0;
+}
+
+.progress-small-top, .progress-mini-top {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 6px;
+}
+
+li.element-list {
+    padding: 8px 0px;
+}
+
+.small-element {
+  color:#6b6b6b;
+  font-style: italic;
+}
+
+
+li.list-group-item {
+    border: none;
+}
+
+.card {
+    font-size: 17px;
+}
+
+
+.main-header .sidebar-toggle:before {
+    content: "☰";
+}
+
+
+/* ----------------------------------------  */
+
+body {
+    font-family: 'questrial','HelveticaNeue','Helvetica Neue','Helvetica-Neue',Helvetica,Arial,sans-serif;
+}
+
+body, label, input, button, select, box, h3, .h3 {
+    font-family: 'questrial','HelveticaNeue','Helvetica Neue','Helvetica-Neue',Helvetica,Arial,sans-serif;
+    color: #212121;
+}
+
+body, label, input, button, select, box, h1, h2, h3, p{
+    font-family: 'questrial','HelveticaNeue','Helvetica Neue','Helvetica-Neue',Helvetica,Arial,sans-serif;
+    
+}
+
+.skin-blue .main-sidebar .sidebar .sidebar-menu .active a {
+    color: #57b952; /* Atualizar a cor do texto no menuItem */
+}
